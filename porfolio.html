@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+
+    <link rel="stylesheet" href="./components/header/header.css" />
+    <script src="./components/header/header.js"></script>
+
+    <link rel="stylesheet" href="./components/footer/footer.css" />
+    <script src="./components/footer/footer.js"></script>
+
+    <link rel="stylesheet" href="./styles/portfolio.css" />
+    <script defer src="./scripts/portfolio.js"></script>
+  </head>
+  <body>
+    <div class="portfolio">
+      <div class="portfolio__welcome">
+        <div class="header-portfolio-container"></div>
+        <div class="portfolio-content-container">
+          <div class="portfolio__title-container">
+            <h4 class="portfolio__title">Portfolio</h4>
+          </div>
+        </div>
+      </div>
+      <div class="portfolio__card-container"></div>
+      <div class="footer-portfolio-container"></div>
+    </div>
+
+    <template id="portfolio__template">
+      <div class="portfolio__card">
+        <img class="portfolio__card__img" src="" />
+        <h4 class="portfolio__card__title"></h4>
+        <p class="portfolio__card__description"></p>
+        <a class="portfolio__card__link" href="">link</a>
+      </div>
+    </template>
+  </body>
+</html>
